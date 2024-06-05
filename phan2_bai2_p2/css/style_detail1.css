@@ -1,0 +1,177 @@
+
+.col-2-5 {
+	width:23%;
+  }
+
+div.categorical_list{
+	font-size: 1em;
+	background-color: white;
+	text-align: left;
+	padding: 8px 15px;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+
+
+.row.col-12 {
+	font-size: 1em;
+	/* background-color: #EBEBEB; */
+	background-color: white;
+	text-align: left;
+	padding: 8px 15px;
+	border: 1px solid #000;
+	border-radius: 10px;
+	margin-bottom:20px;
+}
+
+
+aside ul a:hover {
+	text-decoration: none;
+}
+
+.name p{
+	text-align: left;
+}
+
+/* .col-md-6{
+	padding-left: 5px;
+} */
+
+
+.boxbot {
+	margin-top: 10px;
+	display: flex;
+	text-align: center;
+}
+.boxbot img{
+	width: 80%;
+}
+
+
+.card {
+	margin-left:10px;
+	margin-bottom: 20px;
+	text-align: center;
+	border: none;
+	transition: all 0.5s;
+	box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-footer {
+	margin-bottom: 20px;
+	text-align: left;
+	border: none;
+	transition: all 0.5s;
+}
+
+.card_button:hover {
+	background-color: green;
+}
+
+
+p.card-body {
+	padding-bottom : auto;
+	margin-top : auto;
+	text-align: bottom center;
+} 
+
+
+
+.right {
+	text-align: center;
+	color: #fff; 
+	padding: 360px 0;
+	background-color: rgba(100, 116, 217, 0.2);
+}
+
+.right p {
+	font-size: 20px; 
+}
+
+
+button.add {
+	margin-left: 0;
+    color: #1fb427;
+    background: #fff;
+    border: 2px solid #1fb427;
+}
+
+h3.price, h4.price {
+	color:red;
+}
+
+div.count-product-details{
+	display: flex; 
+	align-items: center;
+}
+
+div.product-view-qiantity-box {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+}
+
+.product-view-qiantity-box label {
+	margin-right: 10px;
+	white-space: nowrap;
+	font-weight: bold;
+}
+
+div.product-view-quantity-box-block {
+	display: flex;
+	align-items: center;
+	font-size: 1em;
+	background-color: white;
+	text-align: left;
+	padding: 8px 15px;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+
+input#qty {
+    width: 50%;
+    height: 50%;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.discount-badge {
+	position: relative;
+	display: inline-block;
+}
+
+.discount-badge::after {
+content: '';
+position: absolute;
+top: 0;
+right: 0;
+background-color: red;
+color: white;
+padding: 5px;
+border-radius: 50%;
+}
+
+
+/* .col-6 .d-flex.align-items-baseline {
+	text-align: center;
+} */
+
+.fa-star {
+	cursor: pointer;
+	color : #EBEBEB;
+}
+
+.checked {
+	color : orange;
+}
+
+/* .unchecked {
+	color : #EBEBEB;
+} */
+

@@ -1,0 +1,78 @@
+nav {
+	margin-bottom: 50px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: blue;
+	text-decoration: underline;
+	letter-spacing: -1px;
+
+}
+
+aside h2 {
+	font-size: 1em;
+	background-color: #EBEBEB;
+	text-align: center;
+	padding: 8px 15px;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+
+aside ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+aside ul a:hover {
+	text-decoration: none;
+}
+
+.name p{
+	text-align: left;
+}
+
+.col-md-6{
+	padding-left: 5px;
+}
+
+
+.boxbot {
+	margin-top: 10px;
+	display: flex;
+	text-align: center;
+}
+.boxbot img{
+	width: 80%;
+}
+
+
+.card {
+	margin-bottom: 20px;
+	text-align: center;
+	border: none;
+	transition: all 0.5s;
+}
+
+.card_button:hover {
+	background-color: green;
+}
+
+
+
+.right {
+	text-align: center;
+	color: #fff; 
+	padding: 360px 0;
+	background-color: rgba(100, 116, 217, 0.2);
+}
+
+.right p {
+	font-size: 20px; 
+}
+
+footer {
+	margin-top: 25px;
+	padding: 20px;
+	color: #fff;
+	text-align: center;
+}

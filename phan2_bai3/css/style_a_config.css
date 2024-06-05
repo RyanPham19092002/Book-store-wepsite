@@ -1,0 +1,27 @@
+.container {
+    width: auto;
+    margin: 10px auto;
+}
+table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    /* background-color: yellow; */
+    text-align: left;
+    
+}
+
+table td, table th {
+    padding: 0px 15px;
+}
+
+th.action-column , th.name-column, th.image-column{
+    width: 200px; /* Đặt độ rộng mong muốn cho cột Action */
+}
+
+.image-inbox {
+	/* margin-top: 10px; */
+	display: flex;
+	text-align: center;
+    width: 25%;
+}
+

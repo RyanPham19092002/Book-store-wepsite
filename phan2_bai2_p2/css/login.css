@@ -1,0 +1,47 @@
+
+
+.form-input2.login {
+    padding-top: 5rem;
+}
+
+.container.login {
+    display: flex;
+
+}
+
+
+.login img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding  : 5px;
+    left: 0;
+}
+
+.row.col-10.login {
+    margin-top : 10%;
+    margin-bottom : 10%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.styled-input.login {
+    width: 100%; /* Đầu vào sẽ chiếm toàn bộ chiều rộng của khung chứa */
+    border: none; /* Loại bỏ viền */
+    border-bottom: 1px solid black; /* Thêm gạch ngang ở dưới */
+    outline: none; /* Loại bỏ viền nổi khi đầu vào được chọn */
+}
+
+.forget_pass.login {
+    position: absolute;
+    right: 0;
+}
+
+.btn.login {
+    display: block; /* Đặt nút thành block để nó chiếm toàn bộ dòng */
+    width: 80%; /* Đặt độ rộng của nút bằng 80% khung chứa */
+    margin: auto; /* Đặt lề tự động để căn giữa nút */
+    border-radius: 35px;
+}
